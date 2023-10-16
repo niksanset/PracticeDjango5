@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Cars</title>
+</head>
+<body>
+{% for car in cars %}
+<p>Brand: {{ car.car_brand }} - Год: {{car.car_year}} - Цвет: {{car.car_color}} - Пробег: {{car.car_mileage}} - Цена: {{car.car_price}}</p>
+
+
+
+{% endfor %}
+</body>
+</html>
